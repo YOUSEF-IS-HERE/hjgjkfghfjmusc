@@ -1,26 +1,26 @@
 const Discord = require('discord.js');
 
 const Util = require('discord.js');
-
+//n3k4a جميع الحقوق معفوظه لي //n3k4a جميع الحقوق معفوظه لي 
 const getYoutubeID = require('get-youtube-id');
 
 const fetchVideoInfo = require('youtube-info');
 
-const YouTube = require('simple-youtube-api');
+const YouTube = require('simple-youtube-api');//n3k4a جميع الحقوق معفوظه لي 
 
 const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
-
+//n3k4a جميع الحقوق معفوظه لي 
 const queue = new Map();
 
-const ytdl = require('ytdl-core');
+const ytdl = require('ytdl-core');//n3k4a جميع الحقوق معفوظه لي 
 
 const fs = require('fs');
-
+//n3k4a جميع الحقوق معفوظه لي 
 const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "=";
+const prefix = "=";//n3k4a جميع الحقوق معفوظه لي //n3k4a جميع الحقوق معفوظه لي //n3k4a جميع الحقوق معفوظه لي //n3k4a جميع الحقوق معفوظه لي 
 /////////////////////////
 ////////////////////////
 
@@ -31,9 +31,9 @@ client.on('message', async msg =>{
     let args = msg.content.split(' ');
 
 	let command = msg.content.toLowerCase().split(" ")[0];
-	command = command.slice(prefix.length)
+	command = command.slice(prefix.length)//n3k4a جميع الحقوق معفوظه لي 
 
-    if(command === `ping`) {
+    if(command === `ping`) {//n3k4a جميع الحقوق معفوظه لي 
     let embed = new Discord.RichEmbed()
     .setColor(3447003)
     .setTitle("Pong!!")
@@ -344,12 +344,12 @@ client.on('message', message => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Desert Bot- Script By : EX Clan`);
+      console.log(`Music Bot- Script By : CF Na World Clan`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : CF Na World Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Dragon Bot`,"http://twitch.tv/Death Shop")
+client.user.setGame(`Toxic Codes Team`,"http://twitch.tv/Toxic Codes")
 client.user.setStatus("dnd")
 });
 
