@@ -349,7 +349,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : CF Na World Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Toxic Codes Team`,"http://twitch.tv/Toxic Codes")
+client.user.setGame(`Dragon Team`,"http://twitch.tv/Toxic Codes")
 client.user.setStatus("dnd")
 });
 
