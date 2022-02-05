@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "ascii-data-table": "^2.1.1",
-    "canvas": "^1.6.10",
     "dateformat": "^3.0.3",
     "discord.js": "^11.3.2",
     "express": "^4.16.3",
@@ -29,7 +28,9 @@
     "math-expression-evaluator": "^1.2.17",
     "sqlite": "^2.9.1",
     "figlet": "^1.2.0",
-    "ytdl-core": "^4.10.1"
+    "dispatchr": "^1.2.1",
+    "ytdl-core": "^4.10.1",
+    "ytdl": "^1.4.1"
   },
   "engines": {
     "node": "8.4.0"
